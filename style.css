@@ -1,0 +1,167 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the navigation */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+nav .logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styling for the sections */
+section {
+  padding: 50px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  nav {
+    padding: 10px 10px;
+  }
+  section {
+    padding: 30px;
+  }
+}
+
+/* Styling for the home section */
+#home {
+  background-image: url("/tcl.jpg"); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e55e00;
+}
+
+/* Styling for the business solutions section */
+#business {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.solution {
+  margin-bottom: 50px;
+}
+
+.solution h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.solution p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Styling for the software development section */
+#software {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.development {
+  margin-bottom: 50px;
+}
+
+.development h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.development p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Styling for the contact section */
+#contact {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+address {
+  font-style: normal;
+}
+
+address p {
+  margin-bottom: 10px;
+}
+
+address a {
+  color: #007bff;
+}
